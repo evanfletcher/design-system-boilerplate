@@ -1,0 +1,337 @@
+@import 'variables';
+
+// $headings
+
+.ds-h1 {
+    font-size: 4.5rem;
+    padding-top: 80px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.ds-h2 {
+    color: @dark-grey;
+    font-size: 1.15rem;
+    text-align: left;
+    padding: 15px 0px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid @grey;
+}
+
+.ds-txt { line-height: 1.5; }
+
+.ds-lead { font-size: 20px; }
+
+// -----------------------------------------------------------------------------
+// $Spacing
+// -----------------------------------------------------------------------------
+
+// LEGEND ----------------------------------------------------------
+// 0 = 0px
+// 1 = 10px = 0.625rem
+// 2 = 20px = 1.25rem
+// 3 = 30px = 1.875rem
+// 4 = 40px = 2.5rem
+// 5 = 50px = 3.125rem
+// 6 = 60px = 3.75rem
+// 7 = 70px = 4.375rem
+// 8 = 80px = 5rem
+// 9 = 90px = 5.625rem
+// 10 = 100px = 6.25rem
+
+// -----------------------------------------------------------------------------
+
+// General Padding
+.ds-p0 { padding: 0; }
+.ds-p1 { padding: 0.625rem; }
+.ds-p2 { padding: 1.25rem; }
+.ds-p3 { padding: 1.875rem; }
+.ds-p4 { padding: 2.5rem; }
+.ds-p5 { padding: 3.125rem; }
+.ds-p6 { padding: 3.75rem; }
+.ds-p7 { padding: 4.375rem; }
+.ds-p8 { padding: 5rem; }
+.ds-p9 { padding: 5.625rem; }
+.ds-p10 { padding: 6.25rem; }
+
+// Padding Top
+.ds-pt0 { padding-top: 0; }
+.ds-pt1 { padding-top: 0.625rem; }
+.ds-pt2 { padding-top: 1.25rem; }
+.ds-pt3 { padding-top: 1.875rem; }
+.ds-pt4 { padding-top: 2.5rem; }
+.ds-pt5 { padding-top: 3.125rem; }
+.ds-pt6 { padding-top: 3.75rem; }
+.ds-pt7 { padding-top: 4.375rem; }
+.ds-pt8 { padding-top: 5rem; }
+.ds-pt9 { padding-top: 5.625rem; }
+.ds-pt10 { padding-top: 6.25rem; }
+
+// Padding Bottom
+.ds-pb0 { padding-bottom: 0; }
+.ds-pb1 { padding-bottom: 0.625rem; }
+.ds-pb2 { padding-bottom: 1.25rem; }
+.ds-pb3 { padding-bottom: 1.875rem; }
+.ds-pb4 { padding-bottom: 2.5rem; }
+.ds-pb5 { padding-bottom: 3.125rem; }
+.ds-pb6 { padding-bottom: 3.75rem; }
+.ds-pb7 { padding-bottom: 4.375rem; }
+.ds-pb8 { padding-bottom: 5rem; }
+.ds-pb9 { padding-bottom: 5.625rem; }
+.ds-pb10 { padding-bottom: 6.25rem; }
+
+// Padding Left
+.ds-pl0 { padding-left: 0; }
+.ds-pl1 { padding-left: 0.625rem; }
+.ds-pl2 { padding-left: 1.25rem; }
+.ds-pl3 { padding-left: 1.875rem; }
+.ds-pl4 { padding-left: 2.5rem; }
+.ds-pl5 { padding-left: 3.125rem; }
+.ds-pl6 { padding-left: 3.75rem; }
+.ds-pl7 { padding-left: 4.375rem; }
+.ds-pl8 { padding-left: 5rem; }
+.ds-pl9 { padding-left: 5.625rem; }
+.ds-pl10 { padding-left: 6.25rem; }
+
+// Padding Right
+.ds-pr0 { padding-right: 0; }
+.ds-pr1 { padding-right: 0.625rem; }
+.ds-pr2 { padding-right: 1.25rem; }
+.ds-pr3 { padding-right: 1.875rem; }
+.ds-pr4 { padding-right: 2.5rem; }
+.ds-pr5 { padding-right: 3.125rem; }
+.ds-pr6 { padding-right: 3.75rem; }
+.ds-pr7 { padding-right: 4.375rem; }
+.ds-pr8 { padding-right: 5rem; }
+.ds-pr9 { padding-right: 5.625rem; }
+.ds-pr10 { padding-right: 6.25rem; }
+
+// Padding on Y axis (vertical)
+.ds-py0 { padding-top: 0; padding-bottom: 0; }
+.ds-py1 { padding-top: 0.625rem; padding-bottom: 0.625rem; }
+.ds-py2 { padding-top: 1.25rem; padding-bottom: 1.25rem; }
+.ds-py3 { padding-top: 1.875rem; padding-bottom: 1.875rem; }
+.ds-py4 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.ds-py5 { padding-top: 3.125rem; padding-bottom: 3.125rem; }
+.ds-py6 { padding-top: 3.75rem; padding-bottom: 3.75rem; }
+.ds-py7 { padding-top: 4.375rem; padding-bottom: 4.375rem; }
+.ds-py8 { padding-top: 5rem; padding-bottom: 5rem; }
+.ds-py9 { padding-top: 5.625rem; padding-bottom: 5.625rem; }
+.ds-py10 { padding-top: 6.25rem; padding-bottom: 6.25rem; }
+
+// Padding on X axis (horizontal)
+.ds-px0 { padding-left: 0; padding-right: 0; }
+.ds-px1 { padding-left: 0.625rem; padding-right: 0.625rem; }
+.ds-px2 { padding-left: 1.25rem; padding-right: 1.25rem; }
+.ds-px3 { padding-left: 1.875rem; padding-right: 1.875rem; }
+.ds-px4 { padding-left: 2.5rem; padding-right: 2.5rem; }
+.ds-px5 { padding-left: 3.125rem; padding-right: 3.125rem; }
+.ds-px6 { padding-left: 3.75rem; padding-right: 3.75rem; }
+.ds-px7 { padding-left: 4.375rem; padding-right: 4.375rem; }
+.ds-px8 { padding-left: 5rem; padding-right: 5rem; }
+.ds-px9 { padding-left: 5.625rem; padding-right: 5.625rem; }
+.ds-px10 { padding-left: 6.25rem; padding-right: 6.25rem; }
+
+// -----------------------------------------------------------------------------
+// $MARGINS
+// -----------------------------------------------------------------------------
+
+// General Margin
+.ds-m0 { margin: 0; }
+.ds-m1 { margin: 0.625rem; }
+.ds-m2 { margin: 1.25rem; }
+.ds-m3 { margin: 1.875rem; }
+.ds-m4 { margin: 2.5rem; }
+.ds-m5 { margin: 3.125rem; }
+.ds-m6 { margin: 3.75rem; }
+.ds-m7 { margin: 4.375rem; }
+.ds-m8 { margin: 5rem; }
+.ds-m9 { margin: 5.625rem; }
+.ds-m10 { margin: 6.25rem; }
+
+// Margin Top
+.ds-mt0 { margin-top: 0; }
+.ds-mt1 { margin-top: 0.625rem; }
+.ds-mt2 { margin-top: 1.25rem; }
+.ds-mt3 { margin-top: 1.875rem; }
+.ds-mt4 { margin-top: 2.5rem; }
+.ds-mt5 { margin-top: 3.125rem; }
+.ds-mt6 { margin-top: 3.75rem; }
+.ds-mt7 { margin-top: 4.375rem; }
+.ds-mt8 { margin-top: 5rem; }
+.ds-mt9 { margin-top: 5.625rem; }
+.ds-mt10 { margin-top: 6.25rem; }
+
+// Margin Bottom
+.ds-mb0 { margin-bottom: 0; }
+.ds-mb1 { margin-bottom: 0.625rem; }
+.ds-mb2 { margin-bottom: 1.25rem; }
+.ds-mb3 { margin-bottom: 1.875rem; }
+.ds-mb4 { margin-bottom: 2.5rem; }
+.ds-mb5 { margin-bottom: 3.125rem; }
+.ds-mb6 { margin-bottom: 3.75rem; }
+.ds-mb7 { margin-bottom: 4.375rem; }
+.ds-mb8 { margin-bottom: 5rem; }
+.ds-mb9 { margin-bottom: 5.625rem; }
+.ds-mb10 { margin-bottom: 6.25rem; }
+
+// Margin Left
+.ds-ml0 { margin-left: 0; }
+.ds-ml1 { margin-left: 0.625rem; }
+.ds-ml2 { margin-left: 1.25rem; }
+.ds-ml3 { margin-left: 1.875rem; }
+.ds-ml4 { margin-left: 2.5rem; }
+.ds-ml5 { margin-left: 3.125rem; }
+.ds-ml6 { margin-left: 3.75rem; }
+.ds-ml7 { margin-left: 4.375rem; }
+.ds-ml8 { margin-left: 5rem; }
+.ds-ml9 { margin-left: 5.625rem; }
+.ds-ml10 { margin-left: 6.25rem; }
+
+// Margin Right
+.ds-mr0 { margin-right: 0; }
+.ds-mr1 { margin-right: 0.625rem; }
+.ds-mr2 { margin-right: 1.25rem; }
+.ds-mr3 { margin-right: 1.875rem; }
+.ds-mr4 { margin-right: 2.5rem; }
+.ds-mr5 { margin-right: 3.125rem; }
+.ds-mr6 { margin-right: 3.75rem; }
+.ds-mr7 { margin-right: 4.375rem; }
+.ds-mr8 { margin-right: 5rem; }
+.ds-mr9 { margin-right: 5.625rem; }
+.ds-mr10 { margin-right: 6.25rem; }
+
+// Margin on Y axis (vertical)
+.ds-my0 { margin-top: 0; margin-bottom: 0; }
+.ds-my1 { margin-top: 0.625rem; margin-bottom: 0.625rem; }
+.ds-my2 { margin-top: 1.25rem; margin-bottom: 1.25rem; }
+.ds-my3 { margin-top: 1.875rem; margin-bottom: 1.875rem; }
+.ds-my4 { margin-top: 2.5rem; margin-bottom: 2.5rem; }
+.ds-my5 { margin-top: 3.125rem; margin-bottom: 3.125rem; }
+.ds-my6 { margin-top: 3.75rem; margin-bottom: 3.75rem; }
+.ds-my7 { margin-top: 4.375rem; margin-bottom: 4.375rem; }
+.ds-my8 { margin-top: 5rem; margin-bottom: 5rem; }
+.ds-my9 { margin-top: 5.625rem; margin-bottom: 5.625rem; }
+.ds-my10 { margin-top: 6.25rem; margin-bottom: 6.25rem; }
+
+// Margin on X axis (horizontal)
+.ds-mx0 { margin-left: 0; margin-right: 0; }
+.ds-mx1 { margin-left: 0.625rem; margin-right: 0.625rem; }
+.ds-mx2 { margin-left: 1.25rem; margin-right: 1.25rem; }
+.ds-mx3 { margin-left: 1.875rem; margin-right: 1.875rem; }
+.ds-mx4 { margin-left: 2.5rem; margin-right: 2.5rem; }
+.ds-mx5 { margin-left: 3.125rem; margin-right: 3.125rem; }
+.ds-mx6 { margin-left: 3.75rem; margin-right: 3.75rem; }
+.ds-mx7 { margin-left: 4.375rem; margin-right: 4.375rem; }
+.ds-mx8 { margin-left: 5rem; margin-right: 5rem; }
+.ds-mx9 { margin-left: 5.625rem; margin-right: 5.625rem; }
+.ds-mx10 { margin-left: 6.25rem; margin-right: 6.25rem; }
+
+
+.ds-mxn1 { margin-left: -0.625rem; margin-right: -0.625rem; }
+.ds-mxn2 { margin-left: -1.25rem; margin-right: -1.25rem; }
+.ds-mxn3 { margin-left: -1.875rem; margin-right: -1.875rem; }
+.ds-mxn4 { margin-left: -2.5rem; margin-right: -2.5rem; }
+
+// ==========================================================================
+// $Background
+// ==========================================================================
+
+.ds-bg-white { background: white; }
+.ds-bg-grey { background: @light-grey;}
+.ds-bg-dark { background: @dark-grey; }
+
+// ==========================================================================
+// $Border Radius
+// ==========================================================================
+
+.ds-br1 { .border-radius(3px); }
+.ds-br2 { .border-radius(4px); }
+.ds-br3 { .border-radius(6px); }
+.ds-br4 { .border-radius(8px); }
+.ds-br5 { .border-radius(50%); }
+
+// ==========================================================================
+// $Box shadow
+// ==========================================================================
+
+.ds-bs1 { .box-shadow(0,2px,4px,rgba(0,0,0,0.1)); }
+.ds-bs2 { .box-shadow(0,4px,12px,rgba(0,0,0,0.05)); }
+.ds-bs3 { .box-shadow(0,8px,22px,rgba(0,0,0,0.05)); }
+
+// ==========================================================================
+// $Grid
+// ==========================================================================
+.ds-flex { display: flex; }
+
+.ds-col1 {
+    -ms-flex-preferred-size: 8.33333333%;
+    flex-basis: 8.33333333%;
+    max-width: 8.33333333%;
+}
+
+.ds-col2 {
+    -ms-flex-preferred-size: 16.66666667%;
+    flex-basis: 16.66666667%;
+    max-width: 16.66666667%;
+}
+
+.ds-col3 {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+.ds-col4 {
+    -ms-flex-preferred-size: 33.33333333%;
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+}
+
+.ds-col5 {
+    -ms-flex-preferred-size: 41.66666667%;
+    flex-basis: 41.66666667%;
+    max-width: 41.66666667%;
+}
+
+.ds-col6 {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.ds-col7 {
+    -ms-flex-preferred-size: 58.33333333%;
+    flex-basis: 58.33333333%;
+    max-width: 58.33333333%;
+}
+
+.ds-col8 {
+    -ms-flex-preferred-size: 66.66666667%;
+    flex-basis: 66.66666667%;
+    max-width: 66.66666667%;
+}
+
+.ds-col9 {
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
+}
+
+.ds-col10 {
+    -ms-flex-preferred-size: 83.33333333%;
+    flex-basis: 83.33333333%;
+    max-width: 83.33333333%;
+}
+
+.ds-col11 {
+    -ms-flex-preferred-size: 91.66666667%;
+    flex-basis: 91.66666667%;
+    max-width: 91.66666667%;
+}
+
+.ds-col12 {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}

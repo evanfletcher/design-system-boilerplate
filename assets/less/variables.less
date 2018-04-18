@@ -1,0 +1,62 @@
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+.border-radius (@radius: 3px) {
+    -moz-border-radius: @arguments;
+    -webkit-border-radius: @arguments;
+    -ms-border-radius: @arguments;
+    border-radius: @arguments;
+}
+
+.box-shadow (@x: 0, @y: 0, @blur: 0, @color: rgba(0,0,0,0.1)) {
+    -moz-box-shadow: @arguments;
+    -webkit-box-shadow: @arguments;
+    -ms-box-shadow: @arguments;
+    box-shadow: @arguments;
+}
+
+.gradient (@bottom: #000, @top: #FFF) {
+    background: @bottom;
+    background-image: linear-gradient(bottom, @bottom 0%, @top 100%);
+    background-image: -o-linear-gradient(bottom, @bottom 0%, @top 100%);
+    background-image: -moz-linear-gradient(bottom, @bottom 0%, @top 100%);
+    background-image: -webkit-linear-gradient(bottom, @bottom 0%, @top 100%);
+    background-image: -ms-linear-gradient(bottom, @bottom 0%, @top 100%);
+}
+
+.gradient-radial (@outside: #000, @inside: #FFF) {
+    background-color: @outside;
+    background-image: -moz-radial-gradient(50% 50%, circle cover, @inside, @outside 100%);
+    background-image: -webkit-radial-gradient(50% 50%, circle cover, @inside, @outside 100%);
+    background-image: -o-radial-gradient(50% 50%, circle cover, @inside, @outside 100%);
+    background-image: -ms-radial-gradient(50% 50%, circle cover, @inside, @outside 100%);
+    background-image: radial-gradient(50% 50%, circle cover, @inside, @outside 100%);
+}
+
+.transition (@kind: all, @time: 0.3s, @ease: linear) {
+    -moz-transition: @arguments;
+    -webkit-transition: @arguments;
+    -ms-transition: @arguments;
+    transition: @arguments;
+}
+
+.box-sizing {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+// $Accent colour
+
+@accent: #feca57;
+
+// $Grayscale colours
+
+@light-grey: #f5f5f5;
+@grey: #ccc;
+@dark-grey: #2d2d2d;
+
+// $Fonts
+
+@font: 'lato', sans-serif;

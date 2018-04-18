@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=window.location.pathname,t=new RegExp(a.replace(/\/$/,""));$(".ds-navigation li > a").each(function(){t.test($(this).attr("href"))&&($(this).addClass("active"),$(this).parent().parent().parent("li").addClass("active"))})});
